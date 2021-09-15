@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6c18645b01.js" crossorigin="anonymous"></script>
+    <title>Youtube Mobile</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header_logo">
+            <i class="fab fa-youtube"></i>
+            <span class="logo_title">Youtube</span>
+        </div>
+        <div class="header_iconBox">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!-- Video player -->
+    <section class="Youtube_videoPlayer">
+        <video controls src="/video/video.mp4"></video>
+    </section>
+
+    <!-- Video info -->
+    <section class="Youtube_info">
+        <!-- Meta data-->
+        <div class="info_metadata">
+            <ul class="metadata_hashtag">
+                <li>#Travel</li>
+                <li>#Japan</li>
+                <li>#UniversalStudio</li>
+            </ul>
+            <div class="metadata_title">
+                <span class="title_text">chaevivin's Travel Journal in Japan #1</span>
+                <button class="title_button">
+                    <i class="fas fa-caret-down"></i>
+                </button>
+            </div>
+            <div class="metadata_viewAndDate">
+                <span class="views">1M views 1 month ago</span>
+            </div>
+        </div>
+        <!-- Action -->
+        <div class="info_actionButton">
+            <li>
+                <button><i class="fas fa-thumbs-up"></i><span>10K</span></button>
+            </li>
+            <li>
+                <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+            </li>
+            <li>
+                <button><i class="fas fa-share"></i><span>share</span></button>
+            </li>
+            <li>
+                <button><i class="fas fa-plus"></i><span>Save</span></button>
+            </li>
+            <li>
+                <button><i class="fas fa-flag"></i><span>Report</span></button>
+            </li>
+        </div>
+        <!-- Channel info -->
+        <div class="info_channel">
+            <div class="channel_metadata">
+                <img src="/image/img.jpg" alt=""/>
+                <div class="info">
+                    <span class="metadata_name">Chaevivin</span>
+                    <span class="metadata_subscribers">10K subscribers</span>
+                </div>
+            </div>
+            <button class="channel_subscribe">subscribe</button>
+        </div>
+    </section>
+
+    <!-- Play list -->
+    <section class="Youtube_playlist">
+        <span class="upNext">Up Next</span>
+        <ul>
+            <li class="playlist_items">
+                <img src="/image/thumbnail1.jpg" alt="" class="item_thumbnail">
+                <div class="item_info">
+                    <span class="info_title">chaevivin's Travel Journal in Japan #2</span>
+                    <span class="info_channel">Chaevivin</span>
+                    <span class="info_views">20K views</span>
+                </div>
+                <button class="item icon"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+        </ul>
+        <ul>
+            <li class="playlist_items">
+                <img src="/image/thumbnail2.jpg" alt="" class="item_thumbnail">
+                <div class="item_title">
+                    <span class="info_title">chaevivin's Travel Journal in Japan #3</span>
+                    <span class="info_channel">Chaevivin</span>
+                    <span class="info_views">30K views</span>
+                </div>
+                <button class="item icon"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+        </ul>
+        <ul>
+            <li class="playlist_items">
+                <img src="/image/thumbnail3.jpg" alt="" class="item_thumbnail">
+                <div class="item_title">
+                    <span class="info_title">chaevivin's Travel Journal in Japan #4</span>
+                    <span class="info_channel">Chaevivin</span>
+                    <span class="info_views">40K views</span>
+                </div>
+                <button class="item icon"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
