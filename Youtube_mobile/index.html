@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/6c18645b01.js" crossorigin="anonymous"></script>
     <title>Youtube Mobile</title>
 </head>
@@ -25,7 +27,8 @@
         <video controls src="/video/video.mp4"></video>
     </section>
 
-    <!-- Video info -->
+    <div class="infoAndPlaylist">
+        <!-- Video info -->
     <section class="Youtube_info">
         <!-- Meta data-->
         <div class="info_metadata">
@@ -35,19 +38,17 @@
                 <li>#UniversalStudio</li>
             </ul>
             <div class="metadata_title">
-                <span class="title_text">chaevivin's Travel Journal in Japan #1</span>
+                <span class="title_text">[Travel Vlog] chaevivin's Travel Journal in Japan #1 | USJ, Universal Studios Japan Theme Park, Osaka, Minions, Harry Potter, Spider Man, Jurassic Park</span>
                 <button class="title_button">
                     <i class="fas fa-caret-down"></i>
                 </button>
             </div>
-            <div class="metadata_viewAndDate">
                 <span class="views">1M views 1 month ago</span>
-            </div>
         </div>
         <!-- Action -->
         <div class="info_actionButton">
             <li>
-                <button><i class="fas fa-thumbs-up"></i><span>10K</span></button>
+                <button><i class="active fas fa-thumbs-up"></i><span>10K</span></button>
             </li>
             <li>
                 <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
@@ -80,37 +81,45 @@
         <span class="upNext">Up Next</span>
         <ul>
             <li class="playlist_items">
-                <img src="/image/thumbnail1.jpg" alt="" class="item_thumbnail">
+                <div class="item_img">
+                    <img src="/image/thumbnail1.jpg" alt="" class="item_thumbnail">
+                </div>
                 <div class="item_info">
                     <span class="info_title">chaevivin's Travel Journal in Japan #2</span>
                     <span class="info_channel">Chaevivin</span>
                     <span class="info_views">20K views</span>
                 </div>
-                <button class="item icon"><i class="fas fa-ellipsis-v"></i></button>
+                <button class="item_icon"><i class="fas fa-ellipsis-v"></i></button>
             </li>
         </ul>
         <ul>
             <li class="playlist_items">
-                <img src="/image/thumbnail2.jpg" alt="" class="item_thumbnail">
-                <div class="item_title">
+                <div class="item_img">
+                    <img src="/image/thumbnail2.jpg" alt="" class="item_thumbnail">
+                </div>
+                <div class="item_info">
                     <span class="info_title">chaevivin's Travel Journal in Japan #3</span>
                     <span class="info_channel">Chaevivin</span>
                     <span class="info_views">30K views</span>
                 </div>
-                <button class="item icon"><i class="fas fa-ellipsis-v"></i></button>
+                <button class="item_icon"><i class="fas fa-ellipsis-v"></i></button>
             </li>
         </ul>
         <ul>
             <li class="playlist_items">
-                <img src="/image/thumbnail3.jpg" alt="" class="item_thumbnail">
-                <div class="item_title">
+                <div class="item_img">
+                    <img src="/image/thumbnail3.jpg" alt="" class="item_thumbnail">
+                </div>
+                <div class="item_info">
                     <span class="info_title">chaevivin's Travel Journal in Japan #4</span>
                     <span class="info_channel">Chaevivin</span>
                     <span class="info_views">40K views</span>
                 </div>
-                <button class="item icon"><i class="fas fa-ellipsis-v"></i></button>
+                <button class="item_icon"><i class="fas fa-ellipsis-v"></i></button>
             </li>
         </ul>
     </section>
+    </div>
+    
 </body>
 </html>
